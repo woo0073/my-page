@@ -18,7 +18,6 @@ class MyCard extends Component {
   render() {
     return (
       <Card style={this.styles}>
-        {/* <Card.Img variant="top" src={imgRender} /> */}
         <Card.Body>
           <Card.Title style={this.title_styles}>{this.state.name}</Card.Title>
           <Card.Text>{this.props.text}</Card.Text>
