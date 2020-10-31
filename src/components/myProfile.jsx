@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import my_image from "./jihye.png";
 import { Figure } from "react-bootstrap";
 import MyWebsites from "./myWebsites";
+import EmailLink from "./emailLink";
 import { FcLike } from "react-icons/fc";
 
 class MyProfile extends Component {
@@ -14,7 +15,7 @@ class MyProfile extends Component {
         <Figure.Caption>
           <p style={{ fontWeight: "bold" }}>우지혜 (Jihye Woo)</p>
           <p>계속 성장하고 싶은 개발자 <FcLike/></p>
-          
+          <p><EmailLink /></p>
           <MyWebsites />
           
         </Figure.Caption>
